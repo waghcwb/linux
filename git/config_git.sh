@@ -9,3 +9,4 @@ git config --global alias.st "status -sb"
 git config --global merge.ours.driver true
 git config --global pull.ff only
 git config --global merge.ff false
+git config --global alias.conflicts "diff --name-only --diff-filter=U"
