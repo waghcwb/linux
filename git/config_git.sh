@@ -2,7 +2,6 @@
 
 
 git config --global core.filemode false
-git config --global core.excludesfile ~/.gitignore
 git config --global core.editor vim
 git config --global alias.lg "log --graph --abbrev-commit --decorate --date=iso --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%cd)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'"
 git config --global alias.st "status -sb"
